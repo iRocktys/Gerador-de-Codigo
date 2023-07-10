@@ -1,0 +1,38 @@
+# teste comentario ú
+
+:DEC
+parametro:INT
+fatorial:INT
+fatorialReal:REAL
+
+:PROG 
+IMPRIMIR "Digite um numero REAL:"
+LER fatorialReal
+IMPRIMIR fatorialReal
+
+IMPRIMIR "\n"
+
+IMPRIMIR "Digite um numero INTEIRO:"
+LER parametro
+IMPRIMIR parametro
+
+SE parametro == 1 OU parametro <= 3 ENTAO 
+INI
+fatorial := 3 
+fatorial := 5 
+FIM
+
+SE parametro == 2 E parametro == 4 ENTAO 
+fatorial := 5
+SENAO
+fatorial := 7
+
+
+
+ENQTO fatorial < 10
+fatorial := fatorial + 1
+IMPRIMIR "\n"
+IMPRIMIR fatorial
+
+
+
